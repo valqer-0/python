@@ -1,0 +1,16 @@
+class Perro:
+    especie = "Canis familiaris"
+
+    def __init__(self, nombre, edad):
+        self.nombre = nombre
+        self.edad = edad
+
+fido = Perro(nombre="Fido", edad=3)
+rex = Perro(nombre="Rex", edad=5)
+
+print(f"{fido.nombre} tiene {fido.edad} años")
+print(f"{rex.nombre} tiene {rex.edad} años")
+
+# Línea que faltaba:
+print(f"Especie: {Perro.especie}")          # acceder desde la clase
+print(f"{fido.nombre} es {fido.especie}")   # acceder desde la instancia

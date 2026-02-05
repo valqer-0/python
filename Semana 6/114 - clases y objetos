@@ -1,0 +1,8 @@
+class Perro:
+    pass
+
+fido = Perro()
+rex = Perro()
+
+print(type(fido))
+print(type(rex))
