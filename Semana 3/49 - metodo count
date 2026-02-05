@@ -1,0 +1,11 @@
+frase = "Hola mundo hola a todos"
+
+print(frase.count("hola"))
+
+print(frase.count("Hola"))
+
+print(frase.count("o"))
+
+mayusculas = frase.upper()
+
+print(mayusculas.count("HOLA"))

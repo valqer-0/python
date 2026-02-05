@@ -1,0 +1,9 @@
+#Unpacking
+
+coordenadas = (-8,-17,22)
+
+punto_x, punto_y, punto_z = coordenadas
+
+print(punto_x)
+print(punto_y * 2)
+print(punto_z * -10)

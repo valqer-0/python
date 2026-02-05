@@ -1,0 +1,28 @@
+'''
+Que valide si una persona puede entrar a una discoteca, beber
+1. Todos los mayores de edad pueden beber
+2. Solo los mayores pueden entrar en la disco
+3. Los mayores de 30 no pueden entrar en las discos
+4. Los de 20 y 25 tienen entrada gratis
+Crea un programa que responda a estas preguntas
+'''
+
+
+
+edad = int(input("Introduce tu edad: "))
+print("¿Puedes entrar en la disco?")
+puede_entrar = edad >= 18 and edad <= 30
+print(puede_entrar)
+print("¿Puedes beber alcohol?")
+puede_beber = edad >= 18
+print(puede_beber)
+print("¿Tienes entrada gratis?")
+tiene_entrada_gratis = edad == 20 or edad == 25
+print(tiene_entrada_gratis)
+
+
+edad = int(input("Introduce tu edad: "))
+diccionario = {True: "si", False: "no"}
+print(f"Puede beber? {diccionario[edad >= 18]}")
+print(f"Puede entrar? {diccionario[18 <= edad <= 30]}")
+print(f"Tiene entrada gratis? {diccionario[edad in [20,25]]}")

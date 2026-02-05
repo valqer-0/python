@@ -1,0 +1,7 @@
+tupla_original = (1,2,3)
+lista = list(tupla_original)
+print(lista)
+lista.append(4)
+print(lista)
+nueva_tupla = tuple(lista)
+print(nueva_tupla)

@@ -1,0 +1,13 @@
+es_mayor = True
+es_estudiante = False
+
+print(es_mayor)
+print(es_estudiante)
+
+# Convertir a booleano
+print(bool(1))        # True
+print(bool(0))        # False
+print(bool("Hola"))   # True
+print(bool(""))       # False
+print(bool([1, 2])) # True
+print(bool([]))      # False

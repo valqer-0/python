@@ -1,0 +1,3 @@
+lenguajes = ["Python","Java","C++","Javascript","PHP","Rust"]
+
+print(len(lenguajes))

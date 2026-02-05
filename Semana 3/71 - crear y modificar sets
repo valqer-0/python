@@ -1,0 +1,21 @@
+
+numeros = {1,2,3,4,5}
+frutas = {"manzana","banana","naranja"}
+print(numeros)
+print(frutas)
+
+letras = {"a","b","a","c","b"}
+print
+
+# agregar elementos
+numeros.add(6)
+print(numeros)
+
+# eliminar elementos
+numeros.remove(2)
+numeros.discard(8)
+print(numeros)
+
+# operaciones
+print(len(frutas))
+print("uva")

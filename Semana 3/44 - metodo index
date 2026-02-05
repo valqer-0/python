@@ -1,0 +1,10 @@
+frase = "Python es genial"
+
+posicion = frase.index("e")
+print(f"La letras ´e´ está en la posición {posicion}")
+
+posicion_palabra = frase.index("genial")
+print(f"La palabra 'genial' comienza en: {posicion_palabra}")
+
+posicion_final = frase.index("e")
+print(f"La última letra 'e' está en la posición: {posicion_final}")

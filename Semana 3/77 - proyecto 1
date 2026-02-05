@@ -1,0 +1,44 @@
+# Solicitar texto al usuario
+texto = input("Ingresa un texto: ")
+
+# Solicitar tres letras
+letra1 = input("Ingresa la primera letra: ")
+letra2 = input("Ingresa la segunda letra: ")
+letra3 = input("Ingresa la tercera letra: ")
+
+# Guardar letras en una lista
+letras = [letra1, letra2, letra3]
+
+# Convertir todo a minúsculas para el análisis
+texto_minuscula = texto.lower()
+
+# 1. Contar apariciones de cada letra
+print("\n=== ANÁLISIS DE TEXTO ===\n")
+print("1. Apariciones de letras:")
+for letra in letras:
+    cantidad = texto_minuscula.count(letra.lower())
+    print(f"   La letra '{letra}' aparece {cantidad} veces")
+
+# 2. Cantidad de palabras
+palabras = texto.split()
+cantidad_palabras = len(palabras)
+print(f"\n2. Total de palabras: {cantidad_palabras}")
+
+# 3. Primera y última letra
+primera_letra = texto[0]
+ultima_letra = texto[-1]
+print(f"\n3. Primera letra: '{primera_letra}'")
+print(f"   Última letra: '{ultima_letra}'")
+
+# 4. Texto con palabras invertidas
+palabras_invertidas = palabras.reverse()
+texto_invertido = " ".join(palabras)
+print(f"\n4. Texto con palabras invertidas:\n   {texto_invertido}")
+
+# 5. ¿Contiene "Python"?
+contiene_python = "python" in texto_minuscula
+resultado = {
+    True: "Sí, la palabra 'Python' se encuentra en el texto",
+    False: "No, la palabra 'Python' NO se encuentra en el texto"
+}
+print(f"\n5. {resultado[contiene_python]}")

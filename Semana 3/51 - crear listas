@@ -1,0 +1,14 @@
+lenguajes = ["Python","Java","C++","Javascript"]
+print(lenguajes)
+
+numeros=[1,2,3,4,5]
+print(numeros)
+
+mixta = ["Python",3.11,True,2024]
+print(mixta)
+
+vacia = []
+print(vacia)
+
+letras = ["a","b","c","d","e"]
+print(letras)

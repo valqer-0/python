@@ -1,0 +1,16 @@
+coordenadas = (10,20,30)
+frutas = ("manzana", "banana", "naranja")
+mixta = (1,"dos",3.0,True, (0,2))
+
+#acesso por indice
+print(coordenadas[0])
+print(frutas[-1])
+
+#Slicing
+numeros = (0,1,2,3,4,5,6,7)
+print(numeros[1:4])
+
+#operaciones
+print(len(frutas)) 
+print("banana" in frutas)
+print(type(numeros))

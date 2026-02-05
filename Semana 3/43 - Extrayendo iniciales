@@ -1,0 +1,7 @@
+nombre = "Pedro"
+apellido = "García"
+
+inicial_nombre = nombre[0]
+inicial_apellido = apellido[0]
+
+print(f"Iniciales: {inicial_nombre}.{inicial_apellido}. ")

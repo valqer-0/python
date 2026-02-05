@@ -1,0 +1,7 @@
+set_a = {1,2,3,4,5}
+set_b = {2,3}
+set_c = {6,7}
+
+print(set_b.issubset(set_a))  # True
+print(set_c.issubset(set_a))  # False
+print(set_a.isdisjoint(set_c))  # True

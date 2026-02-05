@@ -1,0 +1,7 @@
+lenguajes = ["Python","Java","C++","Javascript","PHP"]
+
+print(lenguajes[:3])
+
+print(lenguajes[::-1])
+
+print(lenguajes[1:4])

@@ -1,0 +1,13 @@
+ruta = "C:/python3G/python.exe"
+
+archivo = ruta[12:]
+print(archivo)
+
+extension = ruta[-4:]
+print(extension)
+
+directorio = ruta[:11]
+print(directorio)
+
+carpeta = ruta[3:11]
+print(carpeta)

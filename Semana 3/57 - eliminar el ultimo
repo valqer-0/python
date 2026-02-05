@@ -1,0 +1,10 @@
+lenguajes = ["Python","Java","C++","Javascript"]
+print(f"Original: {lenguajes}")
+
+lenguajes.pop()
+
+print(f"Final: {lenguajes}")
+
+lenguajes.pop(0)
+
+print(f"Final: {lenguajes}")
