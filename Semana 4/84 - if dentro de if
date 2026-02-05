@@ -1,0 +1,15 @@
+edad = int(input("Digite su edad: "))
+
+if int(edad) >= 5:
+    print("Puedes entrar al parque")
+    altura = float(input("Digite su altura: "))
+    if altura >= 1.40:
+        print("Puedes usar TODOS los juegos")
+    else:
+        print("Puedes usar solo juegos infantiles")
+        print("Ej. no puedes usar la Montaña RUSA")
+elif int(edad) <= 5:
+    print("Eres muy chico para entrar")
+    print("Debes tener al menos 5 años")
+else:
+    print("Ingresa una edad correcta")

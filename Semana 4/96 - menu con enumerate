@@ -1,0 +1,5 @@
+opciones = ["Nuevo juego","Cargar Partida","Opciones","Salir"]
+
+print("🎮🎮🎮 MENÚ PRINCIPAL 🎮🎮🎮")
+for i, opcion in enumerate(opciones, 1):
+    print(f"{i}: {opcion}")

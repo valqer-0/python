@@ -1,0 +1,15 @@
+nota = int(input("Digite su nota: "))
+
+if nota >= 90:
+    print("Excelente A")
+elif nota >= 80:
+    print("Muy bien B")
+elif nota >= 70:
+    print("Bien C")
+elif nota >= 60:
+    print("Debes de mejorar D")
+else:
+    print("Calificación F")
+    print("Reprobado")
+
+print(f"Tu nota es: {nota}")    

@@ -1,0 +1,25 @@
+palabra = "Javascript"
+
+for letra in palabra:
+	print(f"Letra: {letra}")
+
+texto = "hola mundo"
+
+contador = 0
+for caracter in texto:
+	if caracter.lower() in "aeiou":
+		print(f"Vocal: {caracter}")
+		contador +=1
+		print(f"Vocal encontrada: {contador}")
+		
+		print(f"\nTotal de vocales: {contador}")
+		
+nombre = "FIBONACCI"
+
+for i, letra in enumerate(nombre):
+    print(letra+(i+1))
+
+nombre = "🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩"
+
+for i, letra in enumerate(nombre):
+    print(letra+(i+1))

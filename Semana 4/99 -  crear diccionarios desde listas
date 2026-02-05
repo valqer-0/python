@@ -1,0 +1,7 @@
+paises = ("Guatemala","Mexico","Colombia","Argentina")
+capitales = ("Ciudad de Guatemala","Ciudad de México","Bogotá","Buenos Aires")
+
+diccionario = dict(zip(paises, capitales))
+
+for pais, capital in diccionario.items():
+    print(f"{pais}: {capital}")

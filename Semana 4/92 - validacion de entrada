@@ -1,0 +1,7 @@
+password = ""
+while password != "python123":
+    password = input("Ingrese su password: ").lower().strip()
+    if password != "python123":
+        print("Password incorrecto. Intenta de nuevo!")
+
+print("Password correcto! Acceso concedido.")

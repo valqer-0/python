@@ -1,0 +1,7 @@
+palabra = ["hola","programacion","si","python"]
+
+print(min(palabra))
+print(max(palabra))
+
+print(min(palabra, key=len))
+print(max(palabra, key=len))

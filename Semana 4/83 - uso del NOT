@@ -1,0 +1,6 @@
+esta_ocupado = False
+
+if not esta_ocupado:
+    print("Puedes agendar la cita")
+else:
+    print("No hay horarios disponibles")

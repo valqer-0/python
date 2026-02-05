@@ -1,0 +1,17 @@
+numeros = [1, 2, 3, 4, 5]
+
+for numero in numeros:
+    print(numero)
+
+nombres = ["Ana", "Luis", "Carlos", "Pedro"]
+
+for nombre in nombres:
+    print(f"Hola {nombre}!")
+
+precios = [100, 250, 75, 300, 150]
+
+for precio in precios:
+    descuento = precio * 0.10
+    precio_final = precio - descuento
+    print(f"Precio: Q.{precio} - Descuento: Q.{descuento}")
+    print(f"Precio Final: Q.{precio_final}")

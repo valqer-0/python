@@ -1,0 +1,6 @@
+estudiantes = ["Pedro","Laura","Diego"]
+materias = ["Python","Javascript","SQL"]
+notas = [85,92,88]
+
+for estudiante, materia, nota in zip(estudiantes, materias, notas):
+    print(f"{estudiante} - {materia}: {nota}")

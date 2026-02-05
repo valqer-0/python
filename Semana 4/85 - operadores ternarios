@@ -1,0 +1,3 @@
+edad = int(input("Digite su edad: "))
+estado = "Mayor" if edad >= 18 else "Menor"
+print(f"Estado {estado}")

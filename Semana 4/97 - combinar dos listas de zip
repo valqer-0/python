@@ -1,0 +1,5 @@
+nombres = ["Ana","Carlos","María"]
+edades = [20,21,19]
+
+for nombre, edad in zip(nombres, edades):
+    print(f"{nombre} tiene {edad} años")

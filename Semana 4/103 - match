@@ -1,0 +1,19 @@
+opcion = input("Ingresa el día de la semana: ").lower().strip()
+
+match opcion:
+    case "lunes":
+        print("A trabajar con las pilas puestas")
+    case "martes":
+        print("Falta mucho todavía para el fin de semana")
+    case "miércoles":
+        print("Ya me estoy cansando faltan energías")
+    case "jueves":
+        print("Ya casi es viernes")
+    case "viernes":
+        print("Yupi! ya casi a descansar")
+    case "sábado":
+        print("Salgo con mi familia")
+    case "domingo":
+        print("Ya casi es lunes")
+    case _:
+        print("Día no válido")

@@ -1,0 +1,9 @@
+usuario = ["admin","root","Carlos","Luis"]
+usuario = input ("Ingrese su usuario: ")
+password = input("Ingrese su contraseña")
+
+if usuario in usuario and password == "python123" and len(password) >=8:
+    print("Login exitoso")
+    print("Bienvenido al sistema")
+else:
+    print("Usuario o contraseña incorrecta")    

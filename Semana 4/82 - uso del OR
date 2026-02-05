@@ -1,0 +1,9 @@
+dia = input("¿Que día es hoy?").upper().strip()
+
+if dia == "SABADO" or dia == "DOMINGO":
+    print("Es fin de semana")
+    print("Puedes descansar")
+else:
+    print("Es día laboral")
+    print("A trabajar")
+ # hacer para que solo sean dias de la semana

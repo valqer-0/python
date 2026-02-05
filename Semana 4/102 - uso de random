@@ -1,0 +1,9 @@
+import random
+
+print(random.randint(1, 6))
+print(random.random())
+print(random.uniform(1.5, 2.9999))
+numeros = ["A","B","C","D","E","F","G","H","I","J"]
+print(random.choice(numeros))
+random.shuffle(numeros)
+print(numeros)

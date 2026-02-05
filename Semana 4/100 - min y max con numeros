@@ -1,0 +1,5 @@
+numeros = [45,12,78,23,91,5,67]
+
+print(f"Lista: {numeros}")
+print(f"Mínimo: {min(numeros)}")
+print(f"Máximo: {max(numeros)}")
