@@ -1,0 +1,2 @@
+comida = "Pizza"
+print("Mi comida favorita es: " + comida) 

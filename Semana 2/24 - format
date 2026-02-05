@@ -1,0 +1,3 @@
+producto = "laptop"
+precio = 1250.75
+print("El producto es: {} cuesta: Q. {}".format(producto, precio))

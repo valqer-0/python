@@ -1,0 +1,3 @@
+numeroUno = float(input("Introduce un numero: "))
+numeroDos = float(input("Introduce otro numero: "))
+print(f"La división al piso {numeroUno} entre {numeroDos} es {(numeroUno//numeroDos)}")

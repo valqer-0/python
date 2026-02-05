@@ -1,0 +1,4 @@
+ciudad = "México"
+población = 12000000
+print(f"la ciudad de {ciudad} tiene una población de {población} de habitantes")
+print(f"{población} de habitantes tiene la ciudad de {ciudad}")

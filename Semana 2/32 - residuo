@@ -1,0 +1,2 @@
+numero = int(input("Introduce un numero: "))
+print(f"El residuo de {numero} entre 2 es {numero % 2}")

@@ -1,0 +1,3 @@
+numeroUno = float(input("Introduce un numero: "))
+numeroDos = float(input("Introduce otro numero: "))
+print(f"La división de {numeroUno} entre {numeroDos} es {(numeroUno/numeroDos):.4f}")

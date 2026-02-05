@@ -1,0 +1,3 @@
+es_mayor_edad = True #Snake Case
+tieneDescuento = False #Camel Case
+print("¿Es mayor de edad?", es_mayor_edad)

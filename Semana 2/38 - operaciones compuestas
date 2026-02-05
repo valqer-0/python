@@ -1,0 +1,2 @@
+operacion = input("Ingresa la operación: ")
+print(f"El resulato es: {eval(operacion)}")

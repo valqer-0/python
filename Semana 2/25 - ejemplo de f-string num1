@@ -1,0 +1,3 @@
+producto = "laptop"
+precio = 1250.75
+print(f"el producto es: {producto} cuesta: Q. {precio}")

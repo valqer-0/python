@@ -1,0 +1,5 @@
+nombre = input("Ingresa tu nombre: ")
+ventas = input("¿Cuánto vendiste este mes?: ")
+ventas = float(ventas)
+comision = (ventas * 13) / 100
+print("Hola {}, tu comisión es de: {:.2f}".format(nombre, comision))
