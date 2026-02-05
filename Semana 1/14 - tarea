@@ -1,0 +1,4 @@
+a = input("Escribe una palabra: ")
+b = input("Ahora escribe otra palabra: ")
+
+print("El nombre de tu cerveza es: " + a + " " + b)

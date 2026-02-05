@@ -1,0 +1,1 @@
+print("🍺 Tu marca de cerveza es: "+" "+input("🦁 Dime el nombre de un animal: ")+" "+input("🔴 Dime tu color favorito: ")+"\U0001f37b\u200d\u2714\ufe0f\ufe0f\u200d\u2714\ufe0f")
