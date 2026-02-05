@@ -1,0 +1,7 @@
+def sumar_todos(*args):
+    total = 0
+    for num in args:
+        total += num
+    return total
+
+print(sumar_todos(5, 8, 9))

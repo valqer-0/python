@@ -1,0 +1,27 @@
+def validar_edad(edad):
+    if edad in range(5, 100):
+        return True
+    return False
+
+def validar_nombre(nombre):
+    if len(nombre.strip()) > 0:
+        return True
+    return False
+
+def crear_estudiante(nombre, edad):
+    if not validar_edad(edad):
+        return "Error: Edad inválida"
+    
+    if not validar_nombre(nombre):
+        return "Error: Nombre inválido"
+    
+    estudiante = {
+        "nombre": nombre,
+        "edad": edad,
+        "activo": True
+    }
+    
+    return estudiante
+
+print(crear_estudiante(nombre="Mario", edad=15)["nombre"])
+print(crear_estudiante(nombre="Mario", edad=15)["edad"])

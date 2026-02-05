@@ -1,0 +1,14 @@
+def saludar(nombre):
+    print(f"Hola {nombre}!")
+    print("Que tengas un buen día")
+
+# saludar("Carlos")
+# saludar("María")
+# saludar("Mario")
+
+def calcular_area_rectangulo(base, altura):
+    area = base * altura
+    print(f"El área del rectángulo es: {area}")
+
+    calcular_area_rectangulo(5, 10)
+    calcular_area_rectangulo(10, 7)

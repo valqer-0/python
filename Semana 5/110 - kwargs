@@ -1,0 +1,7 @@
+def imprimir_tabla(numero):
+    print(f"\nTabla del {numero}")
+    for i in range(1,11):
+        resultado = numero * i
+        print(f"{numero} por {i} es igual a {resultado}")
+
+imprimir_tabla(5)

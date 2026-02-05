@@ -1,0 +1,25 @@
+def saludar():
+	print("Hola")
+	print("Bienvenidos a Python")
+
+#saludar 
+
+def mostrar_menu():
+    print("="*30)
+    print("MENÚ PRINCIPAL")
+    print("="*30)
+    print("1. Jugar")
+    print("2. Opciones")
+    print("3. Salir")
+    print("="*30)
+mostrar_menu()
+
+#separador
+
+def separador():
+    print("\n" + "💻"*20)
+
+print("SECCIÓN 1")
+separador()
+print("SECCIÓN 2")
+separador()

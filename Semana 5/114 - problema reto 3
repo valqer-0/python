@@ -1,0 +1,13 @@
+def cero_dos_veces(*args):
+    for a, b in zip(args, args[1:]):
+        if a == 0 and b == 0:
+            return True
+    return False
+
+# Ejemplos
+print(cero_dos_veces(5,6,1,0,0,9,3,5))  # True
+print(cero_dos_veces(6,0,5,1,0,3,0,1))  # False
+
+# Si tienes una lista:
+nums = [5, 6, 1, 0, 0, 9]
+print(cero_dos_veces(*nums))  # True
